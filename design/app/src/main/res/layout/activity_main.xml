@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="6dp"
+    android:background="@color/blue"
+    tools:layout_editor_absoluteY="125dp">
+
+
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="250dp"
+        android:hint="User name"
+        android:backgroundTint="@color/white"
+        tools:layout_editor_absoluteX="match_parent"
+        tools:layout_editor_absoluteY="match_parent" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
+        tools:layout_editor_absoluteX="88dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/brown"
+        android:text="login" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-270dp"
+
+        app:srcCompat="@drawable/logo_ig_png_instagram_logo_camel_productions_website_25" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/white"
+        android:text="forgot your user name and password ?"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="-40dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="login with facebook" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="25dp"
+        android:text="*********** OR **********"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:text="Don't have an account ?  Sign up" />
+
+
+</LinearLayout>
+

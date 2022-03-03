@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="example.com.optionmenu.MainActivity">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="always"
+
+        android:title="Home" />
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"
+
+        android:title="About us" />
+
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="always"
+
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/item4"
+
+        app:showAsAction="never"
+
+        android:title="item4" />
+
+    <item
+        android:id="@+id/item5"
+
+        app:showAsAction="never"
+
+        android:title="item5" />
+
+    <item
+        android:id="@+id/item6"
+
+        app:showAsAction="never"
+
+        android:title="item6" />
+
+</menu>
